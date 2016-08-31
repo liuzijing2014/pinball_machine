@@ -1,7 +1,7 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pinball_machine.CSharp", "pinball_machine.CSharp.csproj", "{3212F1CE-756B-7C91-D2E5-FE8D6386C5B8}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{60350A04-7725-DF07-C83C-8F4E8B0F38E3}") = "pinball_machine", "Assembly-CSharp.csproj", "{99D116DA-564C-AD05-9831-24779617EB57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3212F1CE-756B-7C91-D2E5-FE8D6386C5B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3212F1CE-756B-7C91-D2E5-FE8D6386C5B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3212F1CE-756B-7C91-D2E5-FE8D6386C5B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3212F1CE-756B-7C91-D2E5-FE8D6386C5B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D116DA-564C-AD05-9831-24779617EB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D116DA-564C-AD05-9831-24779617EB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D116DA-564C-AD05-9831-24779617EB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D116DA-564C-AD05-9831-24779617EB57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

@@ -30,15 +30,15 @@ public class vehicle_controller : MonoBehaviour {
 		if (transform.position != target_position) {
 			transform.position = Vector3.MoveTowards (transform.position, target_position, speed * Time.deltaTime);
 		} else {
+			if (uturn) {
+				return;
+			}
+			uturn = true;
 			StartCoroutine(WaitAndGo(wait_time));
 		}
 	}
 
 	IEnumerator WaitAndGo(float waitTime) {
-		if (uturn) {
-			yield return null;
-		}
-		uturn = true;
 		yield return new WaitForSeconds(waitTime);
 		if (target_position == end_position) {
 			target_position = original_positon;
