@@ -23,6 +23,9 @@ public class dropper_controller : MonoBehaviour {
 
 	// Event for collsion
 	void OnCollisionEnter(Collision collision) {
+		if (collision.gameObject.tag != "ball") {
+			return;
+		}
 		down = true;
 		tick = duration;
 		GetComponent<Collider> ().enabled = false;
