@@ -18,7 +18,7 @@ public class flipper_controller : MonoBehaviour {
 	}
 
 
-	void Update()
+	void FixedUpdate()
 	{
 		
 		if (Input.GetButton (key)) 

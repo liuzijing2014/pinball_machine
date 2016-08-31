@@ -1,0 +1,33 @@
+Initialize engine version: 5.3.5f1 (960ebf59018a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 860M (ID=0x1392)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Unity_Projects\pinball_machine\CityBall_Windows\CityBall_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Unity_Projects\pinball_machine\CityBall_Windows\CityBall_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Unity_Projects\pinball_machine\CityBall_Windows\CityBall_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Unity_Projects\pinball_machine\CityBall_Windows\CityBall_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Unity_Projects\pinball_machine\CityBall_Windows\CityBall_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Unity_Projects\pinball_machine\CityBall_Windows\CityBall_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\Unity_Projects\pinball_machine\CityBall_Windows\CityBall_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\Unity_Projects\pinball_machine\CityBall_Windows\CityBall_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.043 seconds
+Platform assembly: E:\Unity_Projects\pinball_machine\CityBall_Windows\CityBall_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\Unity_Projects\pinball_machine\CityBall_Windows\CityBall_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.566143 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 37fc -> priority: 1 
+  Thread -> id: 1e94 -> priority: 1 
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.222327 ms
+
+Unloading 35222 unused Assets to reduce memory usage. Loaded Objects now: 906.
+Total: 46.150307 ms (FindLiveObjects: 1.504651 ms CreateObjectMapping: 4.562809 ms MarkObjects: 0.290256 ms  DeleteObjects: 39.792179 ms)
+

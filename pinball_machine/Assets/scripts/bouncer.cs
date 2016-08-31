@@ -22,6 +22,7 @@ public class bouncer : MonoBehaviour {
 			my_renderer.material = original_material;
 		}
 		ticks = 0;
+		gameObject.tag = "bouncer";
 	}
 
 	void Update(){

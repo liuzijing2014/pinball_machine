@@ -5,6 +5,10 @@ public class triangle_bouncer : MonoBehaviour {
 
 	public float applied_force;
 
+	void Start(){
+		gameObject.tag = "bouncer";
+	}
+
 	// Event for collsion
 	void OnCollisionEnter(Collision collision) {
 		if (collision.gameObject.tag != "ball")

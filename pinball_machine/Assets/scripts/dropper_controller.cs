@@ -9,6 +9,7 @@ public class dropper_controller : MonoBehaviour {
 	public float viberation;
 	public float duration;
 
+	private game_manager my_gamemanager;
 	private Vector3 down_position;
 	private Vector3 original_position;
 	private bool down;
@@ -19,6 +20,8 @@ public class dropper_controller : MonoBehaviour {
 		down_position.y -= down_distance;
 		down = false;
 		tick = 0.0f;
+		my_gamemanager = GameObject.Find ("game_manager").GetComponent<game_manager> ();
+		gameObject.tag = "bouncer";
 	}
 
 	// Event for collsion
@@ -26,6 +29,7 @@ public class dropper_controller : MonoBehaviour {
 		if (collision.gameObject.tag != "ball") {
 			return;
 		}
+		my_gamemanager.UpdateScore ();
 		down = true;
 		tick = duration;
 		GetComponent<Collider> ().enabled = false;
